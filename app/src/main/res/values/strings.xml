@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Nesne Tanıma</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="gallery">Yüz Tanıma</string>
+    <string name="contact">İletişim</string>
+    <string name="about">Hakkında</string>
+    <string name="email_adress">nergulkahya224@gmail.com</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <string name="galeri_ekran">Galeri Ekranı</string>
+    <string name="txtInstagram">Instagram</string>
+    <string name="txtTwetter">Twitter</string>
+    <string name="txtMail">Mail</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Open Navigation Drawer</string>
+    <string name="galeri_sayfas"></string>
+    <string name="iletisim_sayfasi">İletişim Sayfası</string>
+    <string name="hakkimda_sayfasi">Dışarıda nesnelerini tespit etmek istediğimiz kısmın fotoğrafını çekebilir yada nesnelerini
+        belirlemek istediğimiz resmi galerimizden seçebiliriz.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hakkimda_sayfasi2">Uygulama seçilen resmi algılar.Algılanan resim konumlarına göre nesneyi tespit eder ve bu
+        tesbit edilen resim işlenir.</string>
+    <string name="hakkimda_sayfasi3">Uygulamanın yüz tespit kısmına geldiğinizde arka kamera işleve girer ve tespit etmek
+        istenilen yere doğrultulur eğer tespit edilecek bir yüz var ise tespit eder.</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:background="@color/colorgray"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AboutFragment">
+    <LinearLayout
+        android:id="@+id/linearStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/image_hakkimda"
+            android:layout_width="230dp"
+            android:layout_height="153dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            android:src="@drawable/image1" />
+        <TextView
+            android:id="@+id/hakkimda_text"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/hakkimda_sayfasi"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/go_hakkimda"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="80dp"
+            android:layout_below="@+id/hakkimda_text"
+            android:background="@color/teal_700"
+            android:text="İleri"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

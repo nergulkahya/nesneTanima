@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:padding="16dp">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:src="@mipmap/ic_launcher_foreground"
+    app:civ_border_width="10dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Nesne Tanıma"
+    android:textColor="@color/white"
+    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+    android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/email_adress" />
+</LinearLayout>
